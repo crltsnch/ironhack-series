@@ -9,15 +9,19 @@ for (let i = 0; i < seriesPending.length; i++) {
   }
 }
 
-let seriesWhatching = [];
+let seriesWatching = [];
 let ddd = seriesPending.shift();
-seriesWhatching.push(ddd);
+seriesWatching.push(ddd);
 
 console.log(`seriesPending: ${seriesPending.length}, seriesWatching: ${seriesWatching.length}.`);
 
 for (let i = 0; i < 4; i++) {
-    let seriesWhatching = [];
+    let seriesWatching = [];
     let ddd = seriesPending.shift();
-    seriesWhatching.push(ddd);
+    seriesWatching.push(ddd);
 }
 console.log(`seriesPending: ${seriesPending.length}, seriesWatching: ${seriesWatching.length}.`);
+
+seriesWatching.splice(0, seriesWatching.length);
+
+console.log(`seriesPending: ${seriesPending.length},   seriesWatching: ${seriesWatching.length}.`);
