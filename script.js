@@ -20,3 +20,4 @@ for (let i = 0; i < 4; i++) {
     let ddd = seriesPending.shift();
     seriesWhatching.push(ddd);
 }
+console.log(`seriesPending: ${seriesPending.length}, seriesWatching: ${seriesWatching.length}.`);
