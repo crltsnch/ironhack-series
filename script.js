@@ -12,3 +12,11 @@ for (let i = 0; i < seriesPending.length; i++) {
 let seriesWhatching = [];
 let ddd = seriesPending.shift();
 seriesWhatching.push(ddd);
+
+console.log(`seriesPending: ${seriesPending.length}, seriesWatching: ${seriesWatching.length}.`);
+
+for (let i = 0; i < 4; i++) {
+    let seriesWhatching = [];
+    let ddd = seriesPending.shift();
+    seriesWhatching.push(ddd);
+}
