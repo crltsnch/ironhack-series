@@ -8,3 +8,7 @@ for (let i = 0; i < seriesPending.length; i++) {
     console.log('Found it!');
   }
 }
+
+let seriesWhatching = [];
+let ddd = seriesPending.shift();
+seriesWhatching.push(ddd);
